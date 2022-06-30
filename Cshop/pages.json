@@ -1,0 +1,94 @@
+{
+	"pages": [{
+			"path": "pages/index/index"
+		}    
+		,{
+			"path" : "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "资讯"
+			}
+		}
+	    ,{
+	        "path" : "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+	    }
+	    ,{
+	        "path" : "pages/member/member",
+			"style": {
+				"navigationBarTitleText": "会员"
+			}
+	    }
+	    ,{
+            "path" : "pages/goods/goods",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": true,
+				"navigationBarTitleText": "商品列表"
+            }
+        }
+        ,{
+            "path" : "pages/goods/goodsDetail",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+        }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "联系我们"
+            }
+            
+        }
+        ,{
+            "path" : "pages/category/category",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品类型",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "CShop商城",
+		"navigationBarBackgroundColor": "#b50e03",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#ccc",
+		"selectedColor": "#b50e03",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/home-active.png"
+			},
+			{
+				"text": "资讯",
+				"pagePath": "pages/news/news",
+				"iconPath": "static/icon/news.png",
+				"selectedIconPath": "static/icon/news-active.png"
+			},
+			{
+				"text": "购物车",
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/icon/cart.png",
+				"selectedIconPath": "static/icon/cart-active.png"
+			},
+			{
+				"text": "会员",
+				"pagePath": "pages/member/member",
+				"iconPath": "static/icon/member.png",
+				"selectedIconPath": "static/icon/member-active.png"
+			}
+		]
+	}
+}

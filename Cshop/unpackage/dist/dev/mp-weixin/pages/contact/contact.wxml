@@ -1,0 +1,1 @@
+<view class="contact"><image class="img" src="http://www.itcast.cn/2018czydz/images/gywmban.jpg"></image><view class="info"><view bindtap="{{b}}">联系电话：{{a}}(点击拨打)</view><view>地址：重庆市北碚区双元大道196号(状元碑地铁站2C口步行440米)</view></view><map class="map" latitude="{{c}}" longitude="{{d}}" markers="{{e}}" show-compass></map></view>

@@ -1,0 +1,1 @@
+<view class="goods_list"><goods-list wx:if="{{b}}" bindgoodsItemClick="{{a}}" u-i="52b5a92f-0" bind:__l="__l" u-p="{{b}}"></goods-list><view wx:if="{{c}}" class="isOver">----------已无数据----------</view></view>
